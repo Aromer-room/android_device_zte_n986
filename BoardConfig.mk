@@ -27,3 +27,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_PREBUILT_KERNEL := device/zte/n986/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/zte/n986/recovery/recovery_keys.c
+#BOARD_CUSTOM_GRAPHICS            := ../../../device/samsung/t03g/recovery/graphics.c
+BOARD_UMS_LUNFILE                := "/sys/devices/platform/mt_usb/gadget/lun%d/file"
+TARGET_RECOVERY_INITRC		 := device/zte/n986/recovery/init.rc
+#TARGET_RECOVERY_PIXEL_FORMAT	:= "RGBX_8888"
